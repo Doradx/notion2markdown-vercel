@@ -26,7 +26,7 @@ export default async function handler(
     // notion
     const notion_token = process.env.NOTION_TOKEN;
     const database_id = process.env.NOTION_DATABASE_ID;
-    const status_name = process.env.NOTION_STATUS_NAME || "status";
+    const status_name = process.env.NOTION_STATUS_NAME || "pstatus";
     const status_unpublished_value = process.env.NOTION_STATUS_UNPUBLISHED_VALUE || "待发布";
     // github
     const github_token = process.env.GITHUB_TOKEN as string;
